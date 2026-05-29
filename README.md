@@ -174,9 +174,3 @@ python load_test.py
 Results visible at `/stats` endpoint after the run.
 
 ---
-
-## Resume Bullets
-
-> Built a real-time ML inference API serving 600+ predictions at **2.15ms P95 latency** on AWS EC2, with Redis caching eliminating ~70% of redundant model calls.
-
-> Shipped full stack (FastAPI + Redis + React) via **Docker Compose and GitHub Actions CI/CD**; built live WebSocket dashboard streaming P95/P99 latency metrics.
